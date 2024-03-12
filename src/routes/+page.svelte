@@ -1,10 +1,11 @@
-<div class="flex flex-col items-center justify-center w-screen h-screen bg-[#82c9fe] bg-cover bg-center">
+<div class="flex flex-col items-center justify-center w-screen h-screen bg-[url('/rune-enter.gif')] bg-cover bg-center">
     <div class="flex flex-col items-center justify-center w-screen mb-10">
+        <img id="spin" src="/phat.png" class="h-72 p-10" alt="">
         <a  
             href="index"
-            class="h-10 lg:h-20 mt-36 text-3xl flex flex-col justify-center items-center hover:bg-transparent bg-trasparent text-white lg:text-5xl lg:w-1/5">
-            <img id="spin" src="/phat.png" class="h-72 p-10" alt="">
-            CLICK TO OPEN
+            class="h-10 lg:h-14 text-3xl flex flex-col justify-center items-center bg-blue-700 text-white lg:text-5xl w-auto p-3">
+            
+            CLICK TO ENTER
         </a>
     </div>
 </div>

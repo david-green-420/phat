@@ -1,11 +1,11 @@
-<div id="intro" class="w-screenflex items-center justify-top flex-col bg-[#82c9fe] bg-cover"> 
-        <div class="flex flex-col items-center justify-center w-screen h-screen bg-cover">
+<div id="intro" class="w-screenflex items-center justify-top flex-col bg-cover"> 
+        <div class="flex flex-col items-center justify-center w-screen bg-[url('/rune-3.gif')] h-screen bg-cover bg-center">
             
         <nav
             class="top-0 left-0 flex w-full items-center justify-evenly bg-opacity-0 bg-cover px-3 lg:px-36"
         >
             
-            <div class="hidden lg:block p-2">
+            <div class="hidden lg:block p-2 bg-[#2239b6]">
                 {#each links as { label, href }}
                     <a
                         class="text-5xl font-bold text-white px-3 text-stroke"
@@ -68,22 +68,22 @@
         </div>
         </div>
 
-        <div id="about" class="flex flex-col items-center justify-center w-screen h-screen text-center">
+        <div id="about" class="flex flex-col items-center justify-center w-screen h-screen text-center bg-[url('/rune-4.gif')] bg-cover bg-center">
 
             <div class="flex flex-col items-center justify-center h-auto p-10">
-                <h1 class="text-5xl lg:text-7xl text-[#2239b6]">
+                <h1 class="text-5xl lg:text-7xl text-[#2239b6] bg-[#bdc7ff]">
                     $PHAT
                 </h1>
-                <h1 class="text-xl lg:mx-14 text-center lg:text-3xl lg:mt-14 text-[#2239b6]">
-                    $PHAT, inspired by the iconic blue party hat from RuneScape, embodies a virtual legacy as a token on solana, <br> bringing the nostalgia of in-game celebrations to the decentralized world of finance.<br><br>
+                <h1 class="text-xl lg:mx-14 text-center lg:text-3xl lg:mt-14 text-[#2239b6] bg-[#bdc7ff]">
+                    $PHAT, inspired by the iconic blue party hat from RuneScape, embodies a virtual legacy as a token on solana, <br> bringing the nostalgia of in-game celebrations to the decentralized world of finance.<br>
                 </h1> 
-                <h1 class="text-md lg:text-3xl mt-2 text-[#2239b6]">
+                <h1 class="text-md lg:text-3xl mt-2 text-[#2239b6] bg-[#bdc7ff]">
                     Its vibrant hue and limited supply make $PHAT a sought-after digital collectible, blending the allure <br> of gaming memories with the cutting-edge technology of blockchain.
                 </h1> 
             </div>
         </div>
 
-        <div id="tokenomics" class="h-[1667px] lg:h-screen w-screen flex items-center justify-top flex-col pt-10 lg:mt-0 overflow-hidden">
+        <div id="tokenomics" class="h-[1667px] lg:h-screen w-screen flex items-center justify-top flex-col pt-10 lg:mt-0 overflow-hidden bg-[url('/rune-2.gif')] bg-cover bg-center">
 
             <h3 class="text-white text-2xl">Contract Address:</h3>
             <button class="btn hover:bg-[#4b59a4] bg-[#2239b6] rounded-full w-auto h-14 lg:text-2xl text-lg text-white px-10 py-2 mt-10" use:copy={'0000000.....0000000'}>
